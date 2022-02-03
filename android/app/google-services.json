@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "520806926884",
+    "project_id": "flash-chat-f354d",
+    "storage_bucket": "flash-chat-f354d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520806926884:android:ee2c5821453692dd82e6b1",
+        "android_client_info": {
+          "package_name": "co.reve.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520806926884-9mif6fofjkeqc947kh59os5e7hv4biil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNhRwNk0mimZe6u-RjS1ws2htbKJN1SgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520806926884-9mif6fofjkeqc947kh59os5e7hv4biil.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
