@@ -44,8 +44,8 @@ class _ChatScreenState extends State<ChatScreen> {
   //   }
   // }
 
-  void messagesStream() async {
-    await for (var snapshot in _firestore.collection('messages').snapshots()) {
+  void messagesStream() async {                                 // snapshots = future 를 반환
+    await for (var snapshot in _firestore.collection('messages').snapshots()) { // firestore에 messages 컬렉션이 변경될 때 값을 가져옴
       for (var message in snapshot.documents) {
         print(message.data);
       }
